@@ -1,10 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header{
     .additional{
-        background-color: aqua;
+        color: white;
+        background-color: rgb(2, 130, 249);
         .add-container{
             width: 70%;
             margin: 0 auto;
-            border: 1px solid black;
+            // border: 1px solid black;
             display: flex;
             justify-content: end;
             //align-items: center;
@@ -17,7 +24,7 @@ header{
     .my-container{
         width: 70%;
         margin: 0 auto;
-        border: 1px solid black;
+        // border: 1px solid black;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -61,6 +68,21 @@ header{
 
 .current-series{
   background-color: black;
+  padding: 40px;
+
+  .current-btn {
+    width: 70%;
+    margin: 0 auto;
+     
+    h2{
+        color: white;
+        width: 300px;
+        margin-bottom: 30px;
+        background-color: rgb(2, 130, 249);
+        text-align: center;
+        padding: 10px;
+    }
+}
 
   .card-container{
       color: white;
@@ -69,6 +91,22 @@ header{
       flex-wrap: wrap;
       width: 70%;
       margin: 0 auto;
+
+      .load-btn {
+        // width: 180px;
+        background-color: rgb(2, 130, 249);
+        margin-top: 30px;
+
+        h3 {
+            text-align: center;
+            padding: 10px 40px;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
 
       .my-card{
         width: 200px;

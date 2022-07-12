@@ -1,11 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header .additional {
-  background-color: aqua;
+  color: white;
+  background-color: rgb(2, 130, 249);
 }
 
 header .additional .add-container {
   width: 70%;
   margin: 0 auto;
-  border: 1px solid black;
   display: flex;
   justify-content: end;
 }
@@ -17,7 +23,6 @@ header .additional .add-container span {
 header .my-container {
   width: 70%;
   margin: 0 auto;
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,6 +54,21 @@ header nav ul li a:hover {
 
 .current-series {
   background-color: black;
+  padding: 40px;
+}
+
+.current-series .current-btn {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.current-series .current-btn h2 {
+  color: white;
+  width: 300px;
+  margin-bottom: 30px;
+  background-color: rgb(2, 130, 249);
+  text-align: center;
+  padding: 10px;
 }
 
 .current-series .card-container {
@@ -58,6 +78,21 @@ header nav ul li a:hover {
   flex-wrap: wrap;
   width: 70%;
   margin: 0 auto;
+}
+
+.current-series .card-container .load-btn {
+  background-color: rgb(2, 130, 249);
+  margin-top: 30px;
+}
+
+.current-series .card-container .load-btn h3 {
+  text-align: center;
+  padding: 10px 40px;
+}
+
+.current-series .card-container .load-btn h3 a {
+  color: white;
+  text-decoration: none;
 }
 
 .current-series .card-container .my-card {
