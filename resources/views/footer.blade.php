@@ -1,5 +1,33 @@
 <footer>
-    
+    <section class="footer-up">
+        <ul class="product">
+            <li>
+                <img src="/images/buy-comics-digital-comics.png" alt="">
+                <span>DIGITAL COMICS</span>
+            </li>
+
+            <li>
+                <img src="/images/buy-comics-merchandise.png" alt="">
+                <span>DC MERCHANDISE</span>
+            </li>
+
+            <li>
+                <img src="/images/buy-comics-subscriptions.png" alt="">
+                <span>SUBSCRIPTION</span>
+            </li>
+
+            <li>
+                <img src="/images/buy-comics-shop-locator.png" alt="">
+                <span>COMIC SHOP LOCATOR</span>
+            </li>
+
+            <li>
+                <img src="/images/buy-dc-power-visa.svg" alt="">
+                <span>DC POWER VISA</span>
+            </li>
+            
+        </ul>
+    </section>
 
     <section class="footer-middle">
           <div class="list-container">

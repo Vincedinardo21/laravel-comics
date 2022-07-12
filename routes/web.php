@@ -18,4 +18,8 @@ Route::get('/', function () {
     return view('home', [
        "comicsArr" => $comicsArr, 
     ]);
+    $footerElementsArr = config("footerElements");
+    return view('home', [
+       "footerElementsArr" => $footerElementsArr, 
+    ]);
 })->name("home");
