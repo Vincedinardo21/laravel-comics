@@ -64,3 +64,92 @@ header nav ul li a:hover {
   width: 200px;
 }
 
+footer li {
+  list-style-type: none;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul {
+  margin-right: 40px;
+}
+
+footer ul.product {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer ul.product div {
+  display: flex;
+  align-items: center;
+}
+
+footer .product,
+footer .list-container,
+footer .bottom-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+footer .footer-up {
+  background-color: rgb(2, 130, 249);
+}
+
+footer section.footer-middle {
+  background-image: url("/images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100px;
+}
+
+footer section.footer-middle h2 {
+  color: white;
+}
+
+footer section.footer-middle img {
+  width: 300px;
+}
+
+footer section.footer-middle .list-container {
+  display: flex;
+}
+
+footer section.footer-middle .list-container li {
+  color: gray;
+}
+
+footer section.footer-bottom {
+  background-color: rgb(48, 48, 48);
+  min-height: 100px;
+}
+
+footer section.footer-bottom .bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer section.footer-bottom .sign-up {
+  padding: 20px;
+  border: 1px solid rgb(2, 130, 249);
+}
+
+footer section.footer-bottom ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer section.footer-bottom ul li {
+  margin-right: 10px;
+}
+
+footer section.footer-bottom ul li .follow {
+  color: rgb(2, 130, 249);
+}
+

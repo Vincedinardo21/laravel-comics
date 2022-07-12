@@ -75,3 +75,99 @@ header{
       }
   }
 }
+
+footer {
+  li{
+    list-style-type: none;
+  }
+  //background-color: aqua;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  ul{
+    margin-right: 40px;
+    &.product{
+      display: flex;
+      justify-content: space-around;
+      align-items:center;
+
+      div {
+        display: flex;
+        align-items: center;
+      }
+    }
+    
+  }
+  
+  .product, .list-container, .bottom-container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+
+ 
+
+  .footer-up {
+    background-color: rgb(2, 130, 249);
+  }
+
+  section{
+    &.footer-middle {
+      h2 {
+        color: white;
+      }
+      background-image: url("/images/footer-bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      //border: 1px solid black;
+      min-height: 100px;
+
+      img {
+        width: 300px;
+      }
+
+       .list-container{
+         display: flex;
+         
+         li {
+           color: gray;
+         }
+       }
+    }
+  }
+
+  section{
+    &.footer-bottom {
+      
+      background-color: rgb(48, 48, 48);
+      min-height: 100px;
+
+      .bottom-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .sign-up {
+        padding: 20px;
+        border: 1px solid rgb(2, 130, 249);
+      }
+
+      ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        li{
+          margin-right: 10px;
+
+          .follow{
+            color: rgb(2, 130, 249);
+          }
+        }
+      }
+    }
+  }
+}
