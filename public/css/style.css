@@ -1,4 +1,20 @@
-header {
+header .additional {
+  background-color: aqua;
+}
+
+header .additional .add-container {
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: end;
+}
+
+header .additional .add-container span {
+  margin-left: 30px;
+}
+
+header .my-container {
   width: 70%;
   margin: 0 auto;
   border: 1px solid black;
@@ -23,5 +39,11 @@ header nav ul li a {
 
 header nav ul li a:hover {
   color: blue;
+}
+
+.my-jumbotron {
+  background-color: aquamarine;
+  height: 450px;
+  background-image: url("/images/jumbotron.jpg");
 }
 

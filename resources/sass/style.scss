@@ -1,11 +1,28 @@
 header{
-    // background-color: aqua;
-    width: 70%;
-    margin: 0 auto;
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    .additional{
+        background-color: aqua;
+        .add-container{
+            width: 70%;
+            margin: 0 auto;
+            border: 1px solid black;
+            display: flex;
+            justify-content: end;
+            //align-items: center;
+
+            span{
+                margin-left: 30px;
+            }
+        }
+    }
+    .my-container{
+        width: 70%;
+        margin: 0 auto;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
   
     nav {
         ul {
@@ -34,4 +51,10 @@ header{
       }   
     }
   }
+}
+
+.my-jumbotron{
+    background-color: aquamarine;
+    height: 450px;
+    background-image: url('/images/jumbotron.jpg');
 }
