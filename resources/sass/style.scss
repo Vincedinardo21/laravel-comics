@@ -58,3 +58,20 @@ header{
     height: 450px;
     background-image: url('/images/jumbotron.jpg');
 }
+
+.current-series{
+  background-color: black;
+
+  .card-container{
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 70%;
+      margin: 0 auto;
+
+      .my-card{
+        width: 200px;
+      }
+  }
+}
