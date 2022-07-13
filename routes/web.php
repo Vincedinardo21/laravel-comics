@@ -18,8 +18,14 @@ Route::get('/', function () {
     return view('home', [
        "comicsArr" => $comicsArr, 
     ]);
-    $footerElementsArr = config("footerElements");
-    return view('home', [
-       "footerElementsArr" => $footerElementsArr, 
-    ]);
 })->name("home");
+
+Route::get('/{id}', function ($id) {
+   $comicsArr = config("comics");
+   $comic = $comicsArr[$id];
+   return view('prodotto', [
+      "comic" => $comic,
+   ]);
+})->name("prodotto");
+
+

@@ -1,8 +1,4 @@
 <header>
-    <!-- Sono l'header yeah
-    @foreach($comicsArr as $item)
-        <li>{{$item["title"]}}</li>
-    @endforeach -->
     <div class="additional">
         <div class="add-container">
             <span>DC POWER VISA</span>

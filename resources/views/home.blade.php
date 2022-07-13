@@ -1,16 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <title>Home Comics</title>
-</head>
-<body>
-    @include("header")
-    @include("main")
-    @include("footer")
-</body>
-</html>
+@extends('templates.base')
+
+@section('pageTitle', 'Comics - Home')
+
+@section('pageMain')
+    <main>
+        <section class="my-jumbotron"></section> 
+            <!-- Current Series -->
+            <section class="current-series">
+                <div class="current-btn">
+                    <h2>CURRENT SERIES</h2>
+                </div>
+                <div class="card-container">
+                    @foreach($comicsArr as $item)
+                        <div class="my-card">
+                            <a href="#">
+                                <img src="{{$item['thumb']}}" alt="">
+                                <div>{{$item["title"]}}</div>
+                            </a>           
+                        </div> 
+                    @endforeach
+
+                <div class="btn-container">
+                    <div class="load-btn">
+                        <h3><a href="#">LOAD MORE</a></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+@endsection
