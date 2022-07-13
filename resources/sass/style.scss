@@ -130,7 +130,8 @@ header{
 }
 
 .price {
-  background-color: lime;
+  color: white;
+  background-color: rgb(85, 186, 89);
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid gray;
@@ -138,7 +139,8 @@ header{
 }
 
 .lower{
-  background-color: gray;
+  background-color: rgb(246, 246, 246);
+  border-top: 1px solid gray;
   
 }
 
@@ -148,8 +150,21 @@ header{
 }
 
 [class*="col-"]{
-  border: 1px solid black;
+  border-bottom: 1px solid gray;
   min-height: 50px;
+}
+
+.myflex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.mycolor{
+  color: rgb(2, 130, 249);
+}
+
+.colorlime{
+  color: rgb(186, 253, 147);
 }
 
 footer {
