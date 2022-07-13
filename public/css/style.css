@@ -99,6 +99,11 @@ header nav ul li a:hover {
   width: 200px;
 }
 
+.current-series .card-container .my-card a {
+  color: white;
+  text-decoration: none;
+}
+
 footer li {
   list-style-type: none;
 }
