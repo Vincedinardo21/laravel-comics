@@ -104,6 +104,38 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
+.info-container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.info-card {
+  width: 750px;
+}
+
+.price {
+  background-color: lime;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+.lower {
+  background-color: gray;
+}
+
+.lower-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+[class*=col-] {
+  border: 1px solid black;
+  min-height: 50px;
+}
+
 footer li {
   list-style-type: none;
 }
