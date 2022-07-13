@@ -9,11 +9,10 @@
       <div class="card-container">
          @foreach($comicsArr as $item)
             <div class="my-card">
-               <a href="#">
+               <a href="{{route('prodotto', ['id' => $item['id']])}}">
                   <img src="{{$item['thumb']}}" alt="">
                   <div>{{$item["title"]}}</div>
-               </a>
-               
+               </a>       
             </div> 
          @endforeach
 
